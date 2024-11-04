@@ -9,15 +9,19 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devsuperior</groupId>
-	<artifactId>hr-eureka-server</artifactId>
+	<artifactId>hr-eurekaserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hr-eureka-server</name>
+	<name>hr-eurekaserver</name>
 	<description>Eureka Server</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
