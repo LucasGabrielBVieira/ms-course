@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hr-payroll" />
+        <module name="hr-eurekaserver" />
         <module name="hr-config-server" />
         <module name="hr-eureka-server" />
         <module name="hr-worker" />
-        <module name="hr-eurekaserver" />
         <module name="hr-api-gateway-zuul" />
+        <module name="hr-user" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +23,7 @@
       <module name="hr-eureka-server" options="-parameters" />
       <module name="hr-eurekaserver" options="-parameters" />
       <module name="hr-payroll" options="-parameters" />
+      <module name="hr-user" options="-parameters" />
       <module name="hr-worker" options="-parameters" />
     </option>
   </component>
