@@ -1,4 +1,4 @@
-package com.devsuperior.hruser;
+package com.devsuperior.hr_user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
